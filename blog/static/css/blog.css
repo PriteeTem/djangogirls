@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #ff9400;
+    background-color: #a50808;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -14,9 +14,14 @@
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
+h1, h3, h4 {
     font-family: 'Bungee', cursive;
 }
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+}
+
 
 .date {
     color: #828282;
