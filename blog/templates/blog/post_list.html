@@ -1,6 +1,6 @@
 {% extends 'blog/base.html' %}
 {% block content %}
-            <h2><font size="-2">Site created by Pritee Tembhekar.</font></h2>
+<h2>The Entrepreneurship Conference will be held on April 7th, 2018 at Harvard Business School in Boston. If you have questions or interest in participating please reach out. </h2>
             {% for post in posts %}
                 <div class="post">
                     <div class="date">
@@ -10,4 +10,6 @@
                     <p>{{ post.text|linebreaksbr }}</p>
                 </div>
             {% endfor %}
+
+    <h2><font size="-1">Site created by Pritee Tembhekar.</font></h2>
 {% endblock %}

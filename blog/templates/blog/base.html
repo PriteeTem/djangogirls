@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bungee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Bungee|Cabin+Sketch" rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/blog.css' %}">
     <meta charset="UTF-8">
     <title>The Entrepreneurship Club</title>
@@ -14,7 +14,7 @@
         {% if user.is_authenticated %}
             <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
         {% endif %}
-        <h1><a href="/">The Entrepreneurship Conference at HBS</a></h1>
+        <h1><a href="/"><center>The Entrepreneurship Conference at HBS</center></a></h1>
     </div>
     <div class="content container">
         <div class="row">
