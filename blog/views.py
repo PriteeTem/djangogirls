@@ -12,6 +12,9 @@ def post_list(request):
 def about_page(request):
     return render(request, 'blog/about.html',{})
 
+def team_page(request):
+    return render(request, 'blog/team.html',{})
+
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
     return render(request, 'blog/post_detail.html', {'post': post})

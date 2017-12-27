@@ -1,8 +1,8 @@
 {% extends 'blog/base.html' %}
 {% block content %}
-<h2>The Entrepreneurship Conference will be held on April 7th, 2018 at Harvard Business School in Boston. If you have questions or interest in participating please reach out. </h2>
 
 <h1><a href="{% url 'about_page'%}">About</a></h1>
+<h1><a href="{% url 'team_page'%}">Team</a></h1>
 
         {% for post in posts %}
                 <div class="post">
