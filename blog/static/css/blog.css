@@ -14,17 +14,12 @@
     margin-left: 40px;
 }
 
-.bannerimage {
+.banner-image {
   width: 100%;
   background-image: url(https://i.imgur.com/qzSaHK1.jpg);
   height: 250px;
   background-position: center;
 }
-
-
-
-
-
 
 h1, h3, h4 {
     font-family: 'Cabin Sketch', cursive;
