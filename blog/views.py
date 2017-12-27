@@ -9,7 +9,7 @@ def post_list(request):
     posts= Post.objects.all()
     return render(request, 'blog/post_list.html',{'posts': posts})
 
-def about(request):
+def about_page(request):
     return render(request, 'blog/about.html',{})
 
 def post_detail(request, pk):
