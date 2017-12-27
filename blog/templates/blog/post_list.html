@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-{% load staticfiles %}
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-    <link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="{% static 'css/blog.css' %}">
-    <meta charset="UTF-8">
-    <title>The Entrepreneurship Club</title>
-</head>
-<body>
-<div class="page-header">
-    <h1><a href="/">The Entrepreneurship Conference at HBS</a></h1>
-</div>
-<h2>Site created by Pritee Tembhekar.</h2>
-
-<div class="content container">
-    <div class="row">
-        <div class="col-md-8">
+{% extends 'blog/base.html' %}
+{% block content %}
             {% for post in posts %}
                 <div class="post">
                     <div class="date">
@@ -27,8 +9,4 @@
                     <p>{{ post.text|linebreaksbr }}</p>
                 </div>
             {% endfor %}
-        </div>
-    </div>
-</div>
-</body>
-</html>
+{% endblock %}
