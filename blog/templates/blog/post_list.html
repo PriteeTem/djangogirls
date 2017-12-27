@@ -1,10 +1,6 @@
 {% extends 'blog/base.html' %}
 {% block content %}
-
-<h6><a href="{% url 'about_page'%}">About</a></h6>
-<h7><a href="{% url 'team_page'%}">Team</a></h7>
-
-        {% for post in posts %}
+           {% for post in posts %}
                 <div class="post">
                     <div class="date">
                         <p></p>

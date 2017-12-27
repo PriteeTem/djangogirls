@@ -18,13 +18,13 @@ h1, h3, h4 {
     font-family: 'Cabin Sketch', cursive;
 }
 
-h2,h6,h7 {
+h2,h6,h7,h8 {
     font-family: 'Amatic SC', cursive;
 }
 
 h6, h7, h8 {
     display: inline-block;
-    font-size: 4
+    font-size: 26pt;
 }
 
 .date {
