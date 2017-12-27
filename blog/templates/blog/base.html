@@ -12,6 +12,9 @@
 <body>
     <h2>Site created by Pritee Tembhekar.</h2>
     <div class="page-header">
+        {% if user.is_authenticated %}
+            <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
+        {% endif %}
         <h1><a href="/">The Entrepreneurship Conference at HBS</a></h1>
     </div>
     <div class="content container">
