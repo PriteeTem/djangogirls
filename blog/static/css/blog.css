@@ -22,8 +22,9 @@ h2,h6,h7 {
     font-family: 'Amatic SC', cursive;
 }
 
-h6, h7 {
+h6, h7, h8 {
     display: inline-block;
+    font-size: 4
 }
 
 .date {
