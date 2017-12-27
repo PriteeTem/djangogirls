@@ -18,13 +18,25 @@ h1, h3, h4 {
     font-family: 'Cabin Sketch', cursive;
 }
 
-h2,h6,h7,h8 {
+h2,h6,h7,h8,h9 {
     font-family: 'Amatic SC', cursive;
+}
+
+h6 {
+text-align: left;
+}
+
+h7 {
+text-align: center;
+}
+
+h8 {
+text-align: right;
 }
 
 h6, h7, h8 {
     display: inline-block;
-    font-size: 26pt;
+    font-size: 36pt;
 }
 
 .date {
