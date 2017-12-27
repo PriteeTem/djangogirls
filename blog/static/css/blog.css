@@ -18,10 +18,13 @@ h1, h3, h4 {
     font-family: 'Cabin Sketch', cursive;
 }
 
-h2 {
+h2,h6,h7 {
     font-family: 'Amatic SC', cursive;
 }
 
+h6, h7 {
+    display: inline-block;
+}
 
 .date {
     color: #828282;
