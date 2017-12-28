@@ -32,7 +32,6 @@ h2,h6,h7,h8,h9 {
 
 h6, h7, h8 {
     display: inline-block;
-    text-align: center;
     font-size: 36pt;
     padding:5px 40px;
 }
