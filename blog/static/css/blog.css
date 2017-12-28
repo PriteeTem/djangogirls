@@ -17,7 +17,7 @@
 .banner-image {
   width: 100%;
   background-image: url(https://i.imgur.com/qzSaHK1.jpg);
-  height: 250px;
+  height: 175px;
   background-position: center;
 }
 
@@ -44,6 +44,7 @@ text-align: right;
 h6, h7, h8 {
     display: inline-block;
     font-size: 36pt;
+    padding:5px 5px;
 }
 
 .date {
