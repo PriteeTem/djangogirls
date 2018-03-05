@@ -25,21 +25,21 @@ h1, h3, h4,h2,h6,h7,h8,h9 {
     font-family: 'Dosis', sans-serif;
 }
 
-/*h6, h7, h8 {
+h6, h7, h8 {
     font-family: 'Dosis', sans-serif;
-    display: inline-block;
+    /*display: inline-block;*/
     font-size: 40pt;
     padding:5px 60px;
     text-align: center;
-}*/
+}
 
 h10 {
 font-family: 'Dosis', sans-serif;
    font-size: 18pt;}
 
-h10 {
-font-family: 'Bungee', sans-serif;
-   font-size: 20pt;}
+h11 {
+font-family: 'Dosis', sans-serif;
+   font-size: 24pt}
 
 .date {
     color: #828282;
