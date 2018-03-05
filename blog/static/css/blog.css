@@ -21,13 +21,17 @@
   background-position: center;
 }
 
-h1, h3, h4,h2,h6,h7,h8,h9 {
+h1{
+    font-family: 'Cabin+Sketch', sans-serif;
+}
+
+h3, h4,h2,h6,h7,h8,h9 {
     font-family: 'Dosis', sans-serif;
 }
 
 h6, h7, h8 {
     font-family: 'Dosis', sans-serif;
-    /*display: inline-block;*/
+    display: inline-block;
     font-size: 40pt;
     padding:5px 60px;
     text-align: center;
