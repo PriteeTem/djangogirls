@@ -28,14 +28,14 @@ h1, h3, h4,h2,h6,h7,h8,h9 {
 h6, h7, h8 {
     font-family: 'Dosis', sans-serif;
     display: inline-block;
-    font-size: 46pt;
+    font-size: 40pt;
     padding:5px 60px;
     text-align: center;
 }
 
 h10 {
-font-family: 'Mina', sans-serif;
-   font-size: 24pt;}
+font-family: 'Dosis', sans-serif;
+   font-size: 18pt;}
 
 .date {
     color: #828282;
