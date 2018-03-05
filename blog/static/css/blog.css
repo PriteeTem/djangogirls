@@ -21,6 +21,13 @@
   background-position: center;
 }
 
+.headshot {
+ border-radius: 8px;
+ padding : 10px;
+ class="w3-round";
+ style="float:left;width:318px;height:289px;
+}
+
 h1{
     font-family: 'Cabin Sketch', cursive;
     font-size: 42pt;
