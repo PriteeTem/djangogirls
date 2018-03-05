@@ -22,7 +22,7 @@
 }
 
 h1{
-    font-family: 'Cabin+Sketch', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
 }
 
 h3, h4,h2,h6,h7,h8,h9 {
@@ -30,7 +30,7 @@ h3, h4,h2,h6,h7,h8,h9 {
 }
 
 h6, h7, h8 {
-    font-family: 'Dosis', sans-serif;
+    font-family: 'Cabin Sketch', cursive;
     display: inline-block;
     font-size: 40pt;
     padding:5px 60px;
