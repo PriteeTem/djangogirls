@@ -19,6 +19,7 @@
   background-image: url(https://i.imgur.com/qzSaHK1.jpg);
   height: 175px;
   background-position: center;
+  padding : 10px;
 }
 
 .headshot img{
