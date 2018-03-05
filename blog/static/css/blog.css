@@ -21,12 +21,12 @@
   background-position: center;
 }
 
-.headshot {
+.headshot img{
+ height: 100 px;
  border-radius: 8px;
  padding : 10px;
- class="w3-round";
  style="float:left;"
- height: 100 px;
+
  }
 
 h1{
