@@ -16,3 +16,20 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+class  Item (models.Model):
+    # Fields
+    request_id = models.CharField(max_length=20, help_text='Request ID')
+    link_session_id = models.CharField(max_length=20, help_text='Session ID')
+    plaid_access_token = models.CharField(max_length=20, help_text='Access Token')
+    item_id = models.CharField(max_length=20, help_text='Item ID')
+    institution_id= models.CharField(max_length=20, help_text='Insitution ID')
+    created_at=models.DateTimeField(default=timezone.now)
+
+    def create_Item (self):
+        self.request_id = input
+        self.save
+     
+    def __str__(self):
+        return self.title
+
