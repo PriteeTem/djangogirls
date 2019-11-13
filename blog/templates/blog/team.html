@@ -7,20 +7,20 @@
 <iframe scrolling='no' frameborder='false' height='160' width='290' src='https://index-am.coinbase.com/widget/index'></iframe>
 <br>
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
-  {
-  "width": "1000",
-  "height": "500",
-  "defaultColumn": "overview",
-  "screener_type": "crypto_mkt",
-  "displayCurrency": "USD",
-  "locale": "en"
-}
-  </script>
-</div>
+ <div class="tradingview-widget-container">
+//  <div class="tradingview-widget-container__widget"></div>
+//  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/cryptocurrencies/prices-all/" rel="noopener" target="_blank"><span class="blue-text">Cryptocurrency Markets</span></a> by TradingView</div>
+//  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-screener.js" async>
+ // {
+ // "width": "1000",
+  //"height": "500",
+ // "defaultColumn": "overview",
+ // "screener_type": "crypto_mkt",
+//  "displayCurrency": "USD",
+ // "locale": "en"
+//}
+//  </script>
+// </div>
 <!-- TradingView Widget END -->
 
 
@@ -73,6 +73,8 @@ src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
       // Storing this information can be helpful for support.
     },
     onEvent: function(eventName, metadata) {
+      
+      
       // Optionally capture Link flow events, streamed through
       // this callback as your users connect an Item to Plaid.
       // For example:
@@ -91,6 +93,7 @@ src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
   });
 })(jQuery);
 </script>
+
 
 
    {% endblock %}
