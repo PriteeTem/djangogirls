@@ -9,6 +9,10 @@ from flask import Flask
 from flask import render_template
 from flask import request
 from flask import jsonify
+_SECRETS_FILE = 'secrets.txt'
+_PUBLIC_KEY_ENV = 'PLAID_PUBLIC_KEY'
+_CLIENT_ID_ENV = 'PLAID_CLIENT_ID'
+_SECRET_ENV = 'PLAID_SECRET'
 
 # Create your views here.
 def post_list(request):

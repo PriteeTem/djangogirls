@@ -17,7 +17,7 @@ src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
     countryCodes: ['GB'],
     env: 'development',
     // Replace with your public_key from the Dashboard
-    key: '1ae6c21cc789b53ac0ec7a1acd898c',
+    key: "1ae6c21cc789b53ac0ec7a1acd898c",
     product: ['transactions'],
     // Optional, use webhooks to get transaction and error updates
     webhook: 'https://requestb.in',
@@ -29,6 +29,7 @@ src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
       emailAddress: 'jappleseed@yourapp.com',
     },
     onLoad: function() {
+        
       // Optional, called when Link loads
     },
     onSuccess: function(public_token, metadata) {
@@ -40,18 +41,21 @@ src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
         public_token: public_token,
       });
       Item.create_Item(metadata)
+    
     },
     onExit: function(err, metadata) {
       // The user exited the Link flow.
       if (err != null) {
         // The user encountered a Plaid API error prior to exiting.
+        print ("error happs")
+        
       }
       // metadata contains information about the institution
       // that the user selected and the most recent API request IDs.
       // Storing this information can be helpful for support.
     },
     onEvent: function(eventName, metadata) {
-      
+        
       
       // Optionally capture Link flow events, streamed through
       // this callback as your users connect an Item to Plaid.
