@@ -4,7 +4,7 @@ import sys
 from typing import Optional, List
 
 _SECRETS_FILE = 'secrets.txt'
-_PUBLIC_KEY_ENV = 'PLAID_PUBLIC_KEY'
+_PUBLIC_KEY_ENV = os.getenv("PUBLIC_KEY")
 _CLIENT_ID_ENV = 'PLAID_CLIENT_ID'
 _SECRET_ENV = 'PLAID_SECRET'
 
