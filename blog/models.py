@@ -26,9 +26,11 @@ class  Item (models.Model):
     institution_id= models.CharField(max_length=20, help_text='Insitution ID')
     created_at=models.DateTimeField(default=timezone.now)
 
-    def create_Item (self):
-        self.request_id = input
-        self.save
+    def create_Item(self, metadata):
+        print(type(metadata))
+        print(metadata)
+        # self.plaid_access_token= plaid_access_token_input
+        # self.save
      
     def __str__(self):
         return self.item_id

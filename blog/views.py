@@ -1,8 +1,14 @@
 from django.shortcuts import render, get_object_or_404
 from django.utils import timezone
 from .models import Post
+from .models import Item
 from .forms import PostForm
 from django.shortcuts import redirect
+import plaid
+from flask import Flask
+from flask import render_template
+from flask import request
+from flask import jsonify
 
 # Create your views here.
 def post_list(request):
@@ -17,6 +23,9 @@ def team_page(request):
 
 def home_page(request):
     return render(request, 'blog/homepage.html',{})
+
+def plaid_page(request):
+    return render(request, 'blog/plaid_page.html',{})
 
 def post_detail(request, pk):
     post = get_object_or_404(Post, pk=pk)
@@ -48,3 +57,5 @@ def post_edit(request, pk):
     else:
         form = PostForm(instance=post)
     return render(request, 'blog/post_edit.html', {'form': form})
+
+

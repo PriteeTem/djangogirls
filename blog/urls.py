@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^about$', views.about_page, name='about_page'),
     url(r'^team$', views.team_page, name='team_page'),
     url(r'^events$', views.post_list, name='post_list'),
+    url(r'^plaid_page$', views.plaid_page, name='plaid_page'),
 ]
