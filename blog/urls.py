@@ -1,4 +1,5 @@
 from django.conf.urls import url
+from django.urls import include, path
 from . import views
 
 urlpatterns = [
@@ -10,4 +11,5 @@ urlpatterns = [
     url(r'^team$', views.team_page, name='team_page'),
     url(r'^events$', views.post_list, name='post_list'),
     url(r'^plaid_page$', views.plaid_page, name='plaid_page'),
+    url(r'get_access_token$', views.get_access_token, name='get_access_token'),
 ]

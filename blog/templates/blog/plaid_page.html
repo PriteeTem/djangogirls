@@ -15,7 +15,7 @@ src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
     // codes to initialize Link; European countries will have GDPR
     // consent panel
     countryCodes: ['GB'],
-    env: 'development',
+    env: 'sandbox',
     // Replace with your public_key from the Dashboard
     key: "1ae6c21cc789b53ac0ec7a1acd898c",
     product: ['transactions'],
@@ -40,8 +40,18 @@ src="https://cdn.plaid.com/link/v2/stable/link-initialize.js"></script>
       $.post('/get_access_token', {
         public_token: public_token,
       });
-      Item.create_Item(metadata)
+    //   $.get('/get_auth', {
+
+    //   });
+    //   $.post('/exchange_token', { 
+    //     public_token: public_token ,
+    //     response = client.Item.public_token.exchange(public_token),
+    //     access_token = response['access_token'],
+    //     item_id = response['item_id']
+    //   });
+
     
+
     },
     onExit: function(err, metadata) {
       // The user exited the Link flow.
