@@ -43,6 +43,6 @@ class Secrets:
 
     def _check_secrets(self) -> None:
         if not (self.public_key and self.client_id and self.secret):
-            print(f'ERROR: each of the {_CLIENT_ID_ENV}, {_PUBLIC_KEY_ENV}, and {_SECRET_ENV} '
+            print(f'ERROR: environment variables are hard. each of the {_CLIENT_ID_ENV}, {_PUBLIC_KEY_ENV}, and {_SECRET_ENV} '
                   'environment variables must be set properly')
             sys.exit(1)
