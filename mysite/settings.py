@@ -25,7 +25,7 @@ PLAID_PUBLIC_KEY =os.getenv("PLAID_PUBLIC_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://0.0.0.0:8080/', 'pritee.pythonanywhere.com']
+ALLOWED_HOSTS = ['http://0.0.0.0:8080/','127.0.0.1', 'pritee.pythonanywhere.com']
 
 # Application definition
 
