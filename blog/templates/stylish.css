@@ -1,0 +1,13 @@
+.banner-stylish {
+    width: 100%;
+    background-image: url(https://i.imgur.com/qzSaHK1.jpg);
+    height: 150px;
+    background-position: center;
+    padding : 10px;
+  }
+
+  .page-header {
+    background-color: #a50808;
+    margin-top: 0;
+    padding: 10px 20px 20px 40px;
+}
