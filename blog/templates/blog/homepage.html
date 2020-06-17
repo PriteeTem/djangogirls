@@ -1,7 +1,12 @@
 
-<img src="https://i.imgur.com/yuTKbCe.png" style="width: auto; height: auto;max-width: 220px;max-height: 200px" style="float:left;" style="margin: 40px 40px">
 
 {% extends 'blog/base.html' %}
+
+{% banner content %}
+<h1><a href="{% url 'about_page'%}"> Toodles      <br></a></h1><br>
+{% endbanner %} 
+
+
 {% block content %}
 
 <h1><a href="{% url 'about_page'%}">About      <br></a></h1><br>
