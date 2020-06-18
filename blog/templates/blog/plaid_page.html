@@ -6,8 +6,28 @@
     <p>I use this area for testing my Plaid integration. Plaid helps fintech applications retrieve data from their users' bank accounts.
     </p>
   </div>
-
-<button id="link-button">Link Your Bank Account</button>
+  <style>
+    .container {
+      height: 200px;
+      position: relative;
+      border: 3px solid green;
+    }
+    
+    .vertical-center {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    </style>
+    
+    <div class="container">
+      <div class="vertical-center">
+        <button id="link-button">Link Your Bank Account</button>
+      </div>
+    </div>
+<!--<button id="link-button">Link Your Bank Account</button> -->
 <script
 src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
 <script
